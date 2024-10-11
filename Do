@@ -1,0 +1,12 @@
+First of all thank you giving oppertunity doing this assignment:
+
+Step for doing Auto Scaling:
+
+1. Create ELB with Empty Target Group
+1.1: Keep HTTP in your SG, and make sure you have default rule ALL TRAFFIC with self
+2. Create Launch Template(select AMI ID, provide user data script)
+3. Create ASG from the created Launch configuration (min, DC, max)
+3.1: Check your targets in target groups, it should be healthy
+4. Access your ELB DNS Name.
+
+i hope you uderstading once again thank you so much i'm waiting for your reply.
